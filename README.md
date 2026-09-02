@@ -62,6 +62,39 @@ xcodebuild test \
 
 The UI tests require macOS UI-automation support to be available to Xcode. They exercise capture formatting, Return-to-copy dismissal, and Escape dismissal.
 
+## Create a release
+
+The release script archives Chordmark with a Developer ID certificate, verifies
+the exported signature and version, notarizes and staples the application,
+packages it with an Applications shortcut in a compressed DMG, and then signs,
+notarizes, staples, and validates the finished disk image.
+
+Before the first release, install a **Developer ID Application** certificate
+for the configured team and save App Store Connect credentials for
+`notarytool`:
+
+```sh
+xcrun notarytool store-credentials Chordmark-notary \
+  --apple-id 'developer@example.com' \
+  --team-id K4ZMVP896P \
+  --password 'app-specific-password'
+```
+
+Create a release with:
+
+```sh
+scripts/release_dmg.sh \
+  --version 1.0.0 \
+  --notary-profile Chordmark-notary
+```
+
+By default, the build number is the number of commits reachable from `HEAD`.
+Artifacts and notarization logs are written to `dist/<version>/`, and the
+finished image is named
+`Chordmark-<version>-build-<build-number>.dmg`. Run
+`scripts/release_dmg.sh --help` for identity, team, build-number, and output
+overrides.
+
 ## Implementation
 
 Chordmark uses SwiftUI for its menu and settings, an AppKit `NSPanel` and focused `NSView` for reliable local key capture, Carbon’s system hotkey registration API for global activation, `NSPasteboard` for clipboard writes, and `SMAppService` for launch at login. It has no third-party dependencies.

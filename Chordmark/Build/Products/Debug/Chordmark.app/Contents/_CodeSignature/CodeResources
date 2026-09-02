@@ -10,7 +10,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			8L0YEChuisyhWpFA78KPrGUmNaE=
+			iSIHLPKiyh28+CQFezO0paGpH54=
 			</data>
 			<key>requirement</key>
 			<string>identifier "Chordmark.debug" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: Wallace Turnbull (3XT9E634GZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>

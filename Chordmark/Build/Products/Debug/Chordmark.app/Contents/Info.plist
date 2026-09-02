@@ -40,7 +40,11 @@
 	<string>2630</string>
 	<key>DTXcodeBuild</key>
 	<string>17C529</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>15.7</string>
+	<key>LSUIElement</key>
+	<true/>
 </dict>
 </plist>

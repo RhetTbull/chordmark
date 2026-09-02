@@ -281,6 +281,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AppKit;
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -302,6 +305,46 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+@class NSNotification;
+@class NSApplication;
+SWIFT_CLASS("_TtC9Chordmark11AppDelegate")
+@interface AppDelegate : NSObject <NSApplicationDelegate>
+- (void)applicationDidFinishLaunching:(NSNotification * _Nonnull)notification;
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication * _Nonnull)sender SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC9Chordmark8AppModel")
+@interface AppModel : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+SWIFT_CLASS("_TtC9Chordmark12CapturePanel")
+@interface CapturePanel : NSPanel
+@property (nonatomic, readonly) BOOL canBecomeKeyWindow;
+@property (nonatomic, readonly) BOOL canBecomeMainWindow;
+- (nonnull instancetype)initWithContentRect:(NSRect)contentRect styleMask:(NSWindowStyleMask)style backing:(NSBackingStoreType)backingStoreType defer:(BOOL)flag OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC9Chordmark22CapturePanelController")
+@interface CapturePanelController : NSObject <NSWindowDelegate>
+- (void)windowDidResignKey:(NSNotification * _Nonnull)notification;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSCoder;
+@class NSEvent;
+SWIFT_CLASS("_TtC9Chordmark21ShortcutCaptureNSView")
+@interface ShortcutCaptureNSView : NSView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
+@property (nonatomic, readonly) BOOL acceptsFirstResponder;
+- (void)viewDidMoveToWindow;
+- (void)flagsChanged:(NSEvent * _Nonnull)event;
+- (void)keyDown:(NSEvent * _Nonnull)event;
+- (nonnull instancetype)initWithFrame:(NSRect)frameRect SWIFT_UNAVAILABLE;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)

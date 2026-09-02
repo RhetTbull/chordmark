@@ -16,6 +16,26 @@
     "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
     "swiftmodule" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
   },
+  "/Users/rhet/code/chordmark/Chordmark/Chordmark/AppModel.swift" : {
+    "const-values" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/AppModel.swiftconstvalues",
+    "dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/AppModel.d",
+    "diagnostics" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/AppModel.dia",
+    "index-unit-output-path" : "/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/AppModel.o",
+    "llvm-bc" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/AppModel.bc",
+    "object" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/AppModel.o",
+    "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/AppModel.swiftdeps",
+    "swiftmodule" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/AppModel~partial.swiftmodule"
+  },
+  "/Users/rhet/code/chordmark/Chordmark/Chordmark/CapturePanelController.swift" : {
+    "const-values" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/CapturePanelController.swiftconstvalues",
+    "dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/CapturePanelController.d",
+    "diagnostics" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/CapturePanelController.dia",
+    "index-unit-output-path" : "/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/CapturePanelController.o",
+    "llvm-bc" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/CapturePanelController.bc",
+    "object" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/CapturePanelController.o",
+    "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/CapturePanelController.swiftdeps",
+    "swiftmodule" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/CapturePanelController~partial.swiftmodule"
+  },
   "/Users/rhet/code/chordmark/Chordmark/Chordmark/ChordmarkApp.swift" : {
     "const-values" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ChordmarkApp.swiftconstvalues",
     "dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ChordmarkApp.d",
@@ -26,14 +46,44 @@
     "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ChordmarkApp.swiftdeps",
     "swiftmodule" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ChordmarkApp~partial.swiftmodule"
   },
-  "/Users/rhet/code/chordmark/Chordmark/Chordmark/ContentView.swift" : {
-    "const-values" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.swiftconstvalues",
-    "dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.d",
-    "diagnostics" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.dia",
-    "index-unit-output-path" : "/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.o",
-    "llvm-bc" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.bc",
-    "object" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.o",
-    "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.swiftdeps",
-    "swiftmodule" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  "/Users/rhet/code/chordmark/Chordmark/Chordmark/GlobalHotKeyRegistrar.swift" : {
+    "const-values" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GlobalHotKeyRegistrar.swiftconstvalues",
+    "dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GlobalHotKeyRegistrar.d",
+    "diagnostics" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GlobalHotKeyRegistrar.dia",
+    "index-unit-output-path" : "/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GlobalHotKeyRegistrar.o",
+    "llvm-bc" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GlobalHotKeyRegistrar.bc",
+    "object" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GlobalHotKeyRegistrar.o",
+    "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GlobalHotKeyRegistrar.swiftdeps",
+    "swiftmodule" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GlobalHotKeyRegistrar~partial.swiftmodule"
+  },
+  "/Users/rhet/code/chordmark/Chordmark/Chordmark/KeyCaptureView.swift" : {
+    "const-values" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/KeyCaptureView.swiftconstvalues",
+    "dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/KeyCaptureView.d",
+    "diagnostics" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/KeyCaptureView.dia",
+    "index-unit-output-path" : "/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/KeyCaptureView.o",
+    "llvm-bc" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/KeyCaptureView.bc",
+    "object" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/KeyCaptureView.o",
+    "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/KeyCaptureView.swiftdeps",
+    "swiftmodule" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/KeyCaptureView~partial.swiftmodule"
+  },
+  "/Users/rhet/code/chordmark/Chordmark/Chordmark/SettingsView.swift" : {
+    "const-values" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/rhet/code/chordmark/Chordmark/Chordmark/Shortcut.swift" : {
+    "const-values" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Shortcut.swiftconstvalues",
+    "dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Shortcut.d",
+    "diagnostics" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Shortcut.dia",
+    "index-unit-output-path" : "/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Shortcut.o",
+    "llvm-bc" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Shortcut.bc",
+    "object" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Shortcut.o",
+    "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Shortcut.swiftdeps",
+    "swiftmodule" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Shortcut~partial.swiftmodule"
   }
 }
