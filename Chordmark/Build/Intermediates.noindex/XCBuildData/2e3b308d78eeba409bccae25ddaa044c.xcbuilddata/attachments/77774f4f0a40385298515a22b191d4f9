@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Chordmark-primary.dia",
+    "emit-module-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Chordmark-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Chordmark-primary-emit-module.dia",
+    "pch" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Chordmark-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/Chordmark-primary.swiftdeps"
+  },
+  "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/rhet/code/chordmark/Chordmark/Chordmark/ChordmarkApp.swift" : {
+    "const-values" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ChordmarkApp.swiftconstvalues",
+    "dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ChordmarkApp.d",
+    "diagnostics" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ChordmarkApp.dia",
+    "index-unit-output-path" : "/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ChordmarkApp.o",
+    "llvm-bc" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ChordmarkApp.bc",
+    "object" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ChordmarkApp.o",
+    "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ChordmarkApp.swiftdeps",
+    "swiftmodule" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ChordmarkApp~partial.swiftmodule"
+  },
+  "/Users/rhet/code/chordmark/Chordmark/Chordmark/ContentView.swift" : {
+    "const-values" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/Chordmark.build/Debug/Chordmark.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "buildCommand" : {
+    "command" : "preview",
+    "style" : "xojit"
+  },
+  "buildDescriptionID" : "2e3b308d78eeba409bccae25ddaa044c",
+  "configuredTargets" : [
+    {
+      "guid" : "c37ded571baa72a9ad6ac304158e170477cc671c4ff6b13773c8f3f0142a6ce8"
+    }
+  ],
+  "containerPath" : "/Users/rhet/code/chordmark/Chordmark/Chordmark.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx26.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/rhet/code/chordmark/Chordmark/Build/Products",
+      "derivedDataPath" : "/Users/rhet/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/rhet/Library/Developer/Xcode/DerivedData/Chordmark-fvjevrhpdobkaaeffomhbjwsvafz/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/rhet/Library/Developer/Xcode/DerivedData/Chordmark-fvjevrhpdobkaaeffomhbjwsvafz/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/rhet/code/chordmark/Chordmark/Build/Intermediates.noindex/CodeCoverage/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
