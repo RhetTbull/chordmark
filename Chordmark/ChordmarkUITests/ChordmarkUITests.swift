@@ -32,6 +32,18 @@ final class ChordmarkUITests: XCTestCase {
     }
 
     @MainActor
+    func testCapturesCommandQuestionMarkMenuKeyEquivalent() {
+        let app = launchIntoCapture()
+        let panel = app.windows["Capture Shortcut"]
+        XCTAssertTrue(panel.waitForExistence(timeout: 2))
+
+        app.typeKey("/", modifierFlags: [.shift, .command])
+
+        XCTAssertTrue(app.staticTexts["Captured shortcut ⇧⌘?"].waitForExistence(timeout: 1))
+        XCTAssertTrue(app.buttons["copyShortcutButton"].isEnabled)
+    }
+
+    @MainActor
     private func launchIntoCapture() -> XCUIApplication {
         let app = XCUIApplication()
         app.launchArguments = ["--show-capture"]

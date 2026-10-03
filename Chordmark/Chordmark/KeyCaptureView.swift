@@ -81,6 +81,27 @@ final class ShortcutCaptureNSView: NSView {
     }
 
     override func keyDown(with event: NSEvent) {
+        handleKeyDown(event)
+    }
+
+    override func performKeyEquivalent(with event: NSEvent) -> Bool {
+        guard
+            event.type == .keyDown,
+            event.modifierFlags.intersection(.deviceIndependentFlagsMask).contains(.command),
+            window?.firstResponder === self
+        else {
+            return super.performKeyEquivalent(with: event)
+        }
+
+        // Command-based shortcuts that match a menu item (for example, Command-?)
+        // are offered as key equivalents before AppKit sends them to keyDown.
+        // Consume them here while this view is recording so they are captured
+        // instead of activating the menu command.
+        handleKeyDown(event)
+        return true
+    }
+
+    private func handleKeyDown(_ event: NSEvent) {
         guard !event.isARepeat else { return }
 
         let modifiers = ShortcutModifiers(
